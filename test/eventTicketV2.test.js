@@ -2,7 +2,7 @@ var EventTicketsV2 = artifacts.require('EventTicketsV2')
 let catchRevert = require("./exceptionsHelpers.js").catchRevert
 const BN = web3.utils.BN
 
-contract('EventTicketV2', function(accounts) {
+contract.skip('EventTicketV2', function(accounts) {
 
     const deployAccount = accounts[0]
     const firstAccount = accounts[3]
